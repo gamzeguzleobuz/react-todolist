@@ -81,8 +81,6 @@ export default function Home() {
 }
 
 
-
-
 function seedData() {
   if(localStorage["data"]) {
     return JSON.parse(localStorage["data"]);
